@@ -1,0 +1,8 @@
+---
+  - name: Mac_setup
+    hosts: localhost # 実行対象のホストを指定
+    connection: local
+    gather_facts: no
+    sudo: no
+    roles:
+      - mac_setup

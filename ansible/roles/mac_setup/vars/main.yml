@@ -1,0 +1,34 @@
+---
+  homebrew_taps:
+    - caskroom/cask
+    - sanemat/font
+    - caskroom/fonts
+
+  homebrew_packages:
+    - { name: ansible }
+    - { name: brew-cask }
+    - { name: curl }
+    - { name: git }
+    - { name: python }
+    - { name: ricty }
+    - { name: wget }
+ 
+  homebrew_cask_packages:
+    - { name: atom }
+    - { name: cakebrew }
+    - { name: coteditor }
+    - { name: firefox }
+      { name: font-migu1m }
+    - { name: font-m-plus }
+    - { name: google-chrome }
+    - { name: google-drive }
+    - { name: google-japanese-ime }
+    - { name: iterm2 }
+    - { name: libreoffice }
+    - { name: skype }
+    - { name: slack }
+    - { name: the-unarchiver }
+    - { name: vagrant }
+    - { name: virtualbox }
+    - { name: vlc }
+    - { name: xquartz }
