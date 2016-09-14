@@ -17,7 +17,9 @@
     - { name: atom }
     - { name: cakebrew }
     - { name: coteditor }
-    - { name: firefox }
+    - { name: dropbox }
+    - { name: fillzilla }
+    - { name: firefox-ja }
       { name: font-migu1m }
     - { name: font-m-plus }
     - { name: google-chrome }
