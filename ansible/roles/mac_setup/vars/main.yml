@@ -18,7 +18,7 @@
     - { name: cakebrew }
     - { name: coteditor }
     - { name: dropbox }
-    - { name: fillzilla }
+    - { name: filezilla }
     - { name: firefox-ja }
       { name: font-migu1m }
     - { name: font-m-plus }
