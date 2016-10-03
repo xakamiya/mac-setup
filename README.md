@@ -1,5 +1,12 @@
 ## Ansible Role: Mac セットアップ
 
+### GitHubにあるリポジトリをローカルにcloneする
+```
+$ cd <作業ディレクトリ>
+$ git clone https://github.com/xakamiya/mac-setup.git
+$ cd mac-setup
+```
+
 ### xcode コマンドラインをインストール
 ```
 $ sudo xcodebuild -license
