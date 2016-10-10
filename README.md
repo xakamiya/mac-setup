@@ -7,9 +7,19 @@ $ git clone https://github.com/xakamiya/mac-setup.git
 $ cd mac-setup
 ```
 
-### xcode コマンドラインをインストール
+### Xcodeのインストール
+1. AppStoreからXcodeをインストール
+2. ライセンスに同意
 ```
 $ sudo xcodebuild -license
+
+Software License Agreements Press 'space' for more, or 'q' to quit q
+
+[agree, print, cancel] agree
+```
+3. Xcodeコマンドラインツールをインストール
+```
+$ sudo xcode-select --install
 ```
 
 ### 権限の変更

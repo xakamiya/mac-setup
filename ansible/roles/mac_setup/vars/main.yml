@@ -1,12 +1,13 @@
 ---
   homebrew_taps:
+    - homebrew/binary
+    - homebrew/dupes
     - caskroom/cask
     - sanemat/font
     - caskroom/fonts
 
   homebrew_packages:
     - { name: ansible }
-    - { name: brew-cask }
     - { name: curl }
     - { name: git }
     - { name: python }
