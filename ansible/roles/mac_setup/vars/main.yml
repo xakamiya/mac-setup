@@ -3,6 +3,7 @@
     - homebrew/binary
     - homebrew/dupes
     - caskroom/cask
+    - caskroom/versions
     - sanemat/font
     - caskroom/fonts
 
@@ -21,7 +22,7 @@
     - { name: dropbox }
     - { name: filezilla }
     - { name: firefox-ja }
-      { name: font-migu1m }
+    - { name: font-migu-1m }
     - { name: font-m-plus }
     - { name: google-chrome }
     - { name: google-drive }

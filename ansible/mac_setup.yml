@@ -3,6 +3,6 @@
     hosts: localhost # 実行対象のホストを指定
     connection: local
     gather_facts: no
-    sudo: no
+    become: no
     roles:
       - mac_setup
