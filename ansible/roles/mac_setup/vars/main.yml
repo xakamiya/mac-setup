@@ -36,3 +36,5 @@
     - { name: virtualbox }
     - { name: vlc }
     - { name: xquartz }
+    - { name: zsh }
+    - { name: zsh-completions }

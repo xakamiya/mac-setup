@@ -29,3 +29,9 @@
     homebrew_cask: name={{ item.name }} state={{ item.state|default('installed') }}
     with_items: '{{ homebrew_cask_packages }}'
     register: cask_result
+
+  # zsh
+  - name: install oh-my-zsh
+    shell: "sh -c $(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    args:
+      creates: ~/.oh-my-zsh
