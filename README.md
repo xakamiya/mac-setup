@@ -50,6 +50,7 @@ ansible 2.0.0.2
 
 ### playbookを実行
 ```
+$ chomod +x ./scripts/mac-setup-ansible.sh
 $ ./scripts/mac-setup-ansible.sh
 ```
 
