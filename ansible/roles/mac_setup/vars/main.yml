@@ -33,6 +33,7 @@
     - { name: libreoffice }
     - { name: skype }
     - { name: slack }
+    - { name: sublime-text3 }
     - { name: the-unarchiver }
     - { name: vagrant }
     - { name: virtualbox }
