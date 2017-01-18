@@ -2,7 +2,7 @@
   # brew tap
   - name: brew tap
     homebrew_tap: tap="{{ item }}" state=present
-    with_items: '{{ homebrew_taps }}'
+    with_items: "{{ homebrew_taps }}"
 
   # update homebrew
   - name: brew update
@@ -11,14 +11,14 @@
   # brew
   - name: install brew package
     homebrew: >
-      name={{ item.name }}
-      state={{ item.state | default('latest') }}
-      install_options={{
+      name="{{ item.name }}"
+      state="{{ item.state | default('latest') }}"
+      install_options="{{
         item.install_options | default() | join(',')
         if item.install_options is not string
         else item.install_options
-      }}
-    with_items: '{{ homebrew_packages }}'
+      }}"
+    with_items: "{{ homebrew_packages }}"
     register: brew_result
 
   # cask
@@ -26,8 +26,8 @@
     homebrew: name=cask state=latest
 
   - name: install cask package
-    homebrew_cask: name={{ item.name }} state={{ item.state|default('installed') }}
-    with_items: '{{ homebrew_cask_packages }}'
+    homebrew_cask: name="{{ item.name }}" state="{{ item.state|default('installed') }}"
+    with_items: "{{ homebrew_cask_packages }}"
     register: cask_result
 
   # zsh
