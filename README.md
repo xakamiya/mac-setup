@@ -1,15 +1,9 @@
 ## Ansible Role: Mac セットアップ
 
-### GitHubにあるリポジトリをローカルにcloneする
-```
-$ cd <作業ディレクトリ>
-$ git clone https://github.com/xakamiya/mac-setup.git
-$ cd mac-setup
-```
-
 ### Xcodeのインストール
 1. AppStoreからXcodeをインストール
 2. ライセンスに同意
+　　※表示されるメッセージの後で[q]と入力し、最後に「agree」と入力する
 ```
 $ sudo xcodebuild -license
 
@@ -25,6 +19,14 @@ $ sudo xcode-select --install
 ### 権限の変更
 ```
 $ sudo chown -R $(whoami):admin /usr/local
+```
+
+### GitHubにあるリポジトリをローカルにcloneする
+```
+$ mkdir <作業ディレクトリ>
+$ cd <作業ディレクトリ>
+$ git clone https://github.com/xakamiya/mac-setup.git
+$ cd mac-setup
 ```
 
 ### brewのインストール
