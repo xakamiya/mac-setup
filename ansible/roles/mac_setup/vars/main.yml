@@ -6,6 +6,8 @@
     - caskroom/versions
     - sanemat/font
     - caskroom/fonts
+    - homebrew/apache
+    - homebrew/php
 
   homebrew_packages:
     - { name: ansible }
@@ -16,7 +18,18 @@
     - { name: wget }
     - { name: zsh }
     - { name: zsh-completions }
- 
+    - { name: ruby }
+    - { name: httpd24 }
+    - { name: mysql }
+    - { name: php56 }
+    - { name: php56-intl }
+    - { name: php56-opcache }
+    - { name: php56-apcu }
+    - { name: php56-mcrypt }
+    - { name: php56-xdebug }
+    - { name: php56-xhprof }
+    - { name: phpunit }
+
   homebrew_cask_packages:
     - { name: atom }
     - { name: cakebrew }
